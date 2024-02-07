@@ -10,11 +10,6 @@ SELECT * FROM books;
   -- OPT 2
     select count(id) from users; -- 5277          --> ACTUAL
     select count(distinct id) from users; -- 5277 --> EXPECTED
-select b.name, b.isbn, b.year, b.author, bc.name
-from books b
-         join book_categories bc on b.book_category_id = bc.id
-where b.name = 'The Rose';
-
 
 -- US 03
     select name from book_categories;
