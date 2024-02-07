@@ -48,9 +48,4 @@ public class Hooks {
         System.out.println("closing connection....");
 
     }
-
-
-
-
-
 }
